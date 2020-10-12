@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Policlinic {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("lesson1config.xml");
         IPatient patient1 = context.getBean("Patient1",IPatient.class);
         patient1.goToPolyclinic();
         patient1.getMedicalCard();
