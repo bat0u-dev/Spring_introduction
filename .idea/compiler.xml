@@ -8,10 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring" />
         <module name="Spring_introduction" />
+        <module name="geekspring" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="polyclinic" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="14" />
   </component>
 </project>
